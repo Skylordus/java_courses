@@ -14,10 +14,10 @@ public class Main {
 
         //Loading input resources to list
         List<String> inputList = new ArrayList<>();
-        inputList.add("C:\\hw1inputs\\input1.txt");
-        inputList.add("C:\\hw1inputs\\input2.txt");
-        inputList.add("C:\\hw1inputs\\input3.txt");
-        inputList.add("C:\\hw1inputs\\input4.txt");
+        inputList.add("input1.txt");
+        inputList.add("input2.txt");
+        inputList.add("input3.txt");
+        inputList.add("input4.txt");
         inputList.add("https://skylordus.github.io/web/homework1.txt");
 
         //Going through input resources one by one
