@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orders>
+    <order>
+        <client type="id">1</client>
+        <driver type="id">2</driver>
+        <from type="String">г.Иннополис</from>
+        <fulfilled type="Boolean">false</fulfilled>
+        <orderNumber type="Integer">1</orderNumber>
+        <pricePerKm type="Integer">16</pricePerKm>
+        <to type="String">в г. Казань</to>
+    </order>
+    <order>
+        <client type="id">2</client>
+        <driver type="id">1</driver>
+        <from type="String">из Астаны</from>
+        <fulfilled type="Boolean">true</fulfilled>
+        <orderNumber type="Integer">2</orderNumber>
+        <pricePerKm type="Integer">1000</pricePerKm>
+        <to type="String">в Нью Йорк (довези как то)</to>
+    </order>
+</orders>

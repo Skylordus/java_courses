@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clients>
+    <client>
+        <dateRegistered type="Date">2017-02-20</dateRegistered>
+        <firstName type="String">Yerlan
+</firstName>
+        <id type="Integer">1</id>
+        <lastName type="String">Berdaliyev</lastName>
+        <ordersAmount type="Integer">1</ordersAmount>
+        <patronymic type="String">Berikovich</patronymic>
+    </client>
+    <client>
+        <dateRegistered type="Date">2017-01-18</dateRegistered>
+        <firstName type="String">John</firstName>
+        <id type="Integer">2</id>
+        <lastName type="String">Connor</lastName>
+        <ordersAmount type="Integer">10</ordersAmount>
+        <patronymic type="String">Johnson</patronymic>
+    </client>
+    <client>
+        <dateRegistered type="Date">2016-08-20</dateRegistered>
+        <firstName type="String">Michael</firstName>
+        <id type="Integer">3</id>
+        <lastName type="String">Douglas</lastName>
+        <ordersAmount type="Integer">0</ordersAmount>
+        <patronymic type="String">Actor</patronymic>
+    </client>
+</clients>

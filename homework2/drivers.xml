@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<drivers>
+    <driver>
+        <born type="Date">1991-02-05</born>
+        <car type="id">1</car>
+        <experienceYears type="Integer">1</experienceYears>
+        <id type="Integer">1</id>
+        <name type="String">Leha</name>
+    </driver>
+    <driver>
+        <born type="Date">1992-01-12</born>
+        <car type="id">2</car>
+        <experienceYears type="Integer">2</experienceYears>
+        <id type="Integer">2</id>
+        <name type="String">Sereja</name>
+    </driver>
+    <driver>
+        <born type="Date">1990-05-26</born>
+        <car type="id">3</car>
+        <experienceYears type="Integer">1</experienceYears>
+        <id type="Integer">3</id>
+        <name type="String">Masha</name>
+    </driver>
+</drivers>

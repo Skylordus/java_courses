@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cars>
+    <car>
+        <color type="String">White</color>
+        <id type="Integer">1</id>
+        <manufacturer type="String">Toyota
+</manufacturer>
+        <model type="String">Prius
+</model>
+        <regnum type="String">X065LFM</regnum>
+    </car>
+    <car>
+        <color type="String">Red</color>
+        <id type="Integer">2</id>
+        <manufacturer type="String">Kia</manufacturer>
+        <model type="String">Rio</model>
+        <regnum type="String">X784JRH</regnum>
+    </car>
+    <car>
+        <color type="String">Black</color>
+        <id type="Integer">3</id>
+        <manufacturer type="String">Volkswagen</manufacturer>
+        <model type="String">Passat</model>
+        <regnum type="String">U456TYR</regnum>
+    </car>
+</cars>
