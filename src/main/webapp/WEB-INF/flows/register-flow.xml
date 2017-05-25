@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.4.xsd"
+      start-state="regForm">
+
+    <var name="user" class="com.yberdaliyev.models.forms.LoginForm"/>
+
+    <input name="user" required="true"/>
+
+    <view-state id="regForm" view="registration" model="user">
+        <transition on="create" to="actionCheckUserExists"/>
+        <transition on="cancel" to="canceled"/>
+    </view-state>
+
+    <action-state id="actionCheckUserExists">
+        <evaluate expression="userService.userExists(user)"/>
+        <transition on="yes" to="regForm">
+            <set name="flashScope.errorMessage" value="resourceBundle.userexists"/>
+        </transition>
+        <transition on="no" to="actionCreateUser"/>
+    </action-state>
+    <action-state id="actionCreateUser">
+        <evaluate expression="userService.createUser(user)"/>
+        <transition to="created">
+            <set name="flashScope.notifyUserCreated" value="resourceBundle.usercreated"/>
+        </transition>
+    </action-state>
+
+    <end-state id="created">
+        <output name="user"/>
+    </end-state>
+    <end-state id="canceled"/>
+
+</flow>

@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    font-family: "Bitstream Charter";
+}
+
+.box {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 400px;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
