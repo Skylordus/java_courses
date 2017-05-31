@@ -1,5 +1,6 @@
 package com.yberdaliyev.controllers;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -9,10 +10,12 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class MainController {
+    private static final Logger logger = Logger.getLogger(MainController.class);
 
     @RequestMapping("/")
     private String index() {
-        return "/login";
+        logger.error("hoho");
+        return "redirect:login-flow";
     }
 
     @RequestMapping("downloadPDF")
