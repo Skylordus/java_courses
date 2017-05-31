@@ -16,5 +16,7 @@
 <a href="${flowExecutionUrl}&_eventId=homePage">Back home</a>
 
 <a href="${flowExecutionUrl}&_eventId=cancelPage">Cancel</a>
+
+<a href="downloadPDF">download pdf</a>
 </body>
 </html>
